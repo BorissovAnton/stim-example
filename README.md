@@ -1,8 +1,8 @@
-CMake demonstration of caching capabilities of cmake
+Demonstration of caching capabilities of cmake
 
 Run using:
 
 ```shell
 cmake -B build
-cmake --build build
+cmake --build build --parallel 8
 ```
